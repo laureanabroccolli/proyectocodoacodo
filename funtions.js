@@ -25,11 +25,11 @@ function calcularTotal(e) {
     validarFormulario();
   //Calculo el total.
   let totalPagar = precio * cantidad.value;
-  //Consigo el descuento
+  //Hago el descuento
     descuento = descuentoCategoria[categoria.value];
-  //Aplico el descuento.
+  //Aplico el descuento al total.
   totalPagar *= descuento;
-  //Muestro el total.
+  //Muestro el nuevo total con el descuento.
     total.textContent = totalPagar;
 }
 
