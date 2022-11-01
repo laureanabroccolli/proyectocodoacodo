@@ -43,7 +43,7 @@ function validarFormulario() {
 
 
 function mostrarMensaje(mensaje) {
-  //si ya existe el mensaje no lo vuelvo a crear. //soluciono error que crea mas de un mensaje de aviso 
+  //si el mensaje ya existe no lo vuelvo a crear.
     if (document.querySelector(".msg")) {
         return;
     }
