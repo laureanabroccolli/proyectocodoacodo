@@ -44,9 +44,12 @@ u {
     align-items: center;
     margin-left: 340px;
 }
-#footer {
-    background-color: rgba(21,72,100,210)!important;
+
+footer {
+  background-color: #1d3a4a;
+  margin-top: 1rem;
 }
+
 .lightgreen{
     background-color: rgba(150,202,62,255) !important;
     border: 0ch;
